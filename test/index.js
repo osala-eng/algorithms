@@ -1,6 +1,6 @@
-import { createServer } from 'http'
-import { parse } from 'querystring'
-import { add } from './calculator'
+const http = require('http')
+const qs = require('querystring')
+const calculator = require('./calculator')
 
 const server = createServer(function(request, response) {
   console.dir(request.param)

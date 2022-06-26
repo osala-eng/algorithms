@@ -5,5 +5,4 @@ function add(numbers) {
         .reduce((a, b) => a + b)
 }
 
-const _add = add;
-export { _add as add };
+exports.add = add;
