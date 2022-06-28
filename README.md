@@ -10,7 +10,7 @@ For example, number 9 has binary representation 1001 and contains a binary gap o
 Write a function:
 
 ```javascript
-    class Solution { public int solution(int N); }
+    funtion solution (K);
 ```
 
 that, given a positive integer K, returns the length of its longest binary gap. The function should return 0 if K doesn't contain a binary gap.
