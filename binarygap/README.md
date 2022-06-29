@@ -1,3 +1,6 @@
+# Solution
+
+```javascript
 function solution (K){
     const binary = K.toString(2) // converting integer K to binary
     let gap = 0 , found_one = false, count = 0
@@ -22,5 +25,4 @@ function solution (K){
     }
     return gap
 }
-
-exports.solution = solution
+```
